@@ -1,0 +1,10 @@
+.row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center
+}
+
+.card-text{
+ font-size: 20px;
+}
