@@ -1,0 +1,35 @@
+CSS
+usar Var como cores para facilitar o site, Exemplo: --cor: #12312312; var(--cor); 
+Tornar o site responsivo
+Media queries:
+max-width:
+- desktop:990px
+- tablet/mobile: 768px
+- mobile: 600px 
+
+Menu do meu site:
+
+1 - Home
+2 - Sobre mim
+3 - Conhecimentos
+4 - Projetos
+5 - Contato
+
+Section Sobre mim - Olá, me chamo Dario,
+
+Sou desenvolvedor front-end e estudante do 3º período de Análise e Desenvolvimento de Sistemas no Unicuritiba. Para saber mais sobre o meu trabalho acesse:
+
+Section Conhecimentos -  Os que domino e estou estudando
+->HTML5,CSS,JavaScript e Boostrap5
+->Sites responsivos, sem muita poluição visual, simples e de facil acesso
+
+Section Projetos-  Mostrar o código no github e abrir o site para demonstração
+
+Projeto 01 - Trabalho feito para a faculdade de front-end
+Projeto 02 - Fazer algum projeto com javascript - Calculadora
+Projeto 03 - Site do curso Origamid de lobos
+
+Section Contato - no começo iria ser só o email aí depois 
+ia fazer um formulário pra pessoa mandar um e-mail pra mim
+
+Footer - Colocar minhas redes sociais e meu email para contato tbm
