@@ -1,8 +1,8 @@
 # Portfólio
 
-Site desenvolvido com HTML,CSS e JavaScript.
+- Site desenvolvido com HTML,CSS e JavaScript.
 
 
 # Resumo
 
-Site contendo alguns projetos principais que eu realizei ao longo do tempo
+- Site com meu portfólio completo com projetos, projetos pessoais e com meus estudos
