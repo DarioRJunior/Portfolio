@@ -18,10 +18,9 @@ a {
 
 /* HEADER */
 
-#logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
+#logo img {
+    height: 250px;
+    margin-top: 10px;
 }
 
 #header {
@@ -196,7 +195,7 @@ a {
 /* PROJETOS */
 
 #projetos h1 {
-    font-size: 44px;
+    font-size: 34px;
     text-transform: uppercase;
     text-align: center;
     padding: 24px;
@@ -241,7 +240,7 @@ a {
 
 #projetos .item .left .img {
     position: relative;
-    height: 500px;
+    height: 480px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0px 0px 20px #6c23ba;
