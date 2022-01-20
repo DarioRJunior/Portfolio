@@ -9,6 +9,7 @@
     --light: #888888;
     scroll-behavior: smooth;
 }
+
 a {
     color: #fff;
     text-decoration: none;
@@ -48,13 +49,15 @@ a {
     display: none;
 }
 
+
 /* FIM DO HEADER */
+
 
 /* SOBRE MIM*/
 
 #sobre-mim {
-    background: url(../img/pic.jpg) no-repeat left;
-    background-size: 55%;
+    background: url(../img/pexels-soumil-kumar-735911.jpg) no-repeat left;
+    background-size: 62%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
@@ -114,7 +117,9 @@ a {
     font-size: 18px;
 }
 
+
 /* FIM DO SOBRE MIM*/
+
 
 /* Skills */
 
@@ -184,7 +189,9 @@ a {
     color: var(--texto);
 }
 
+
 /* FIM DO Skills */
+
 
 /* PROJETOS */
 
@@ -274,7 +281,8 @@ a {
     color: #363636;
     margin-bottom: 3rem;
 }
-#projetos .btn{
+
+#projetos .btn {
     outline: none;
     display: block;
     margin-bottom: 20px;
@@ -287,15 +295,18 @@ a {
     color: #fdfdfd;
     cursor: pointer;
     transition: all 0.3s linear;
-
 }
-#projetos .btn:hover, .btn:focus{
+
+#projetos .btn:hover,
+.btn:focus {
     background: #1a31d3;
 }
-#projetos .btn:active{
-    background:#091991 ;
+
+#projetos .btn:active {
+    background: #091991;
 }
-#projetos .btn-outline{
+
+#projetos .btn-outline {
     outline: none;
     display: block;
     border: solid 1px #6c23ba;
@@ -309,15 +320,21 @@ a {
     cursor: pointer;
     transition: all 0.3s linear;
 }
-#projetos .btn-outline:hover, .btn-outline:focus{
+
+#projetos .btn-outline:hover,
+.btn-outline:focus {
     background: #1a31d3;
     color: #ffffff;
     border: #1a31d3;
 }
-#projetos .btn-outline:active{
-    background:#091991 ;
+
+#projetos .btn-outline:active {
+    background: #091991;
 }
+
+
 /* FIM DO PROJETOS */
+
 
 /* CONTATO */
 
@@ -330,22 +347,26 @@ a {
     text-decoration: 4px underline #6c23ba;
 }
 
-#contato{
+#contato {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
 }
-#contato p{
- font-size: 18px;
- margin-bottom: 20px;
- 
+
+#contato p {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-#contato a{
+
+#contato a {
     color: #6c23ba;
     font-size: 60px;
     margin-right: 10px;
 }
+
+
 /* FIM DO CONTATO */
+
 
 /* FOOTER */
 
@@ -428,7 +449,9 @@ footer {
     font-weight: 200px;
 }
 
+
 /* FIM DO FOOTER */
+
 
 /* RESPONSIVIDADE */
 
@@ -458,8 +481,6 @@ footer {
     #btn-mobile {
         display: block;
     }
-
-
     #menu {
         display: block;
         position: absolute;
@@ -498,21 +519,21 @@ footer {
     .skills-sobre {
         display: grid;
     }
-    #projetos .item{
+    #projetos .item {
         flex-direction: column;
     }
-    #projetos .item .left{
+    #projetos .item .left {
         width: 100%;
     }
-    #projetos .item .right{
+    #projetos .item .right {
         width: 90%;
         margin-left: 0;
         margin-top: -150px;
     }
-    #projetos .item:nth-child(even){
+    #projetos .item:nth-child(even) {
         flex-direction: column;
     }
-    #projetos .item:nth-child(even) .left{
+    #projetos .item:nth-child(even) .left {
         margin-left: 0%;
     }
 }
