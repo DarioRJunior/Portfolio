@@ -15,9 +15,10 @@ a {
     text-decoration: none;
 }
 
-.color-a-btn {
+/* .color-a-btn {
     color: #6c23ba;
-}
+} */
+
 
 
 /* HEADER */
@@ -318,18 +319,20 @@ a {
     line-height: 1;
     padding: 16px 30px;
     border-radius: 30px;
-    background: #ffffff;
+    background-color: #ffffff;
     color: #6c23ba;
     cursor: pointer;
     transition: all 0.3s linear;
 }
 
+
+
 #projetos .btn-outline:hover,
 .btn-outline:focus {
-    background: #1a31d3;
-    color: #ffffff;
+    background-color: #1a31d3;
+    color: #fff;
     border: #1a31d3;
-}
+    }
 
 #projetos .btn-outline:active {
     background: #091991;
